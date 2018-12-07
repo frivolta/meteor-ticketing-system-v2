@@ -38,5 +38,8 @@
   "scripts": {
     "start": "meteor --no-release-check --settings ../config/settings.development.json",
     "lint": "eslint --quiet --ext .jsx --ext .js ./imports"
+  },
+  "engines": {
+    "node": "8.11.4"
   }
 }
