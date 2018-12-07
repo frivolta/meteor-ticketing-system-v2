@@ -1,8 +1,7 @@
 export const styles = theme => ({
   root: {
     flexGrow: 1,
-    paddingLeft: theme.spacing.unit*8,
-    paddingRight: theme.spacing.unit*8,
+    padding: theme.spacing.unit*2
   },
   paper: {
     padding: theme.spacing.unit * 2,
